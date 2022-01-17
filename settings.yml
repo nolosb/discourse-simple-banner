@@ -1,0 +1,13 @@
+banner_class:
+  type: string
+  description:
+    en: 'Custom CSS class for the banner.'
+  default: ""
+banner_content:
+  type: string
+  textarea: true
+  description:
+    en: 'Custom html for the banner content.'
+  default: |
+            <h2>Simple Banner</h2>
+            <h1>Welcome to the Community</h1>
